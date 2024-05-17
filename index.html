@@ -12,6 +12,13 @@
       href="./images/favicon-32x32.png"
     />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="style.css" />
 
     <title>Frontend Mentor | Base Apparel coming soon page</title>
@@ -21,15 +28,42 @@
         text-align: center;
       }
       .attribution a {
-        color: white;
+        color: hsl(0, 36%, 70%);
+        text-decoration: none;
       }
     </style>
   </head>
   <body>
-    We're coming soon Hello fellow shoppers! We're currently building our new
-    fashion store. Add your email below to stay up-to-date with announcements
-    and our launch deals. Email Address
-
+    <main>
+      <div class="content">
+        <div class="logo"><img src="images/logo.svg" alt="logo" /></div>
+        <div class="content-text">
+          <h1>We're</h1>
+          <h2>coming soon</h2>
+          <p>
+            Hello fellow shoppers! We're currently building our new fashion
+            store. Add your email below to stay up-to-date with announcements
+            and our launch deals.
+          </p>
+        </div>
+        <div class="content-email">
+          <form>
+            <div class="container">
+              <input
+                type="email"
+                id="put-email"
+                name="emailadress"
+                value="Email Address"
+              />
+              <a class="btn btn1">></a>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="image">
+        <img src="images/hero-desktop.jpg" alt="hero-desktop" />
+      </div>
+    </main>
     <footer>
       <p class="attribution">
         Challenge by
