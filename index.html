@@ -21,6 +21,8 @@
 
     <link rel="stylesheet" href="style.css" />
 
+    <script src="script.js" defer></script>
+
     <title>Frontend Mentor | Base Apparel coming soon page</title>
     <style>
       .attribution {
@@ -48,21 +50,25 @@
         </div>
         <div class="content-email">
           <form>
-            <div class="email">
-              <input
-                type="email"
-                id="email"
-                name="emailadress"
-                placeholder="Email Address"
-              />
-              <button type="submit"><img src="images/icon-arrow.svg" /></button>
-              <img class="error-image" src="images/icon-error.svg" />
-            </div>
-            <p class="error">Please provide a valid email</p>
+            <input
+              type="email"
+              id="inputEmail"
+              name="emailadress"
+              placeholder="Email Address"
+            />
+
+            <img class="error" src="images/icon-error.svg" />
+
+            <button class="submit-button" type="submit">
+              <img src="images/icon-arrow.svg" />
+            </button>
           </form>
+          <div>
+            <p class="error">Please provide a valid email</p>
+          </div>
         </div>
       </div>
-      <div class="image">
+      <div class="hero-image">
         <img src="images/hero-desktop.jpg" alt="hero-desktop" />
       </div>
     </main>
