@@ -33,7 +33,7 @@ form {
 form input {
   border-radius: 30px;
   border: 1px solid var(--dark-Grayish-Red);
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
   height: 100%;
   left: 0;
@@ -132,7 +132,9 @@ footer {
 }
 
 img.error {
-  padding-left: 350px;
+  /* padding-left: 350px; */
+  position: absolute;
+  right: 80px;
 }
 
 p.error {
