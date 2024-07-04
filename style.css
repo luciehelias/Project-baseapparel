@@ -114,6 +114,10 @@ footer {
   object-fit: cover;
 }
 
+.hero-mobile {
+  display: none;
+}
+
 .logo {
   margin-top: 60px;
   height: 60px;
@@ -149,4 +153,13 @@ p.error {
   font-size: 14px;
   font-weight: 400;
   color: hsla(0, 93%, 68%, 0.9);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(0, 36%, 70%);
+  text-decoration: none;
 }
