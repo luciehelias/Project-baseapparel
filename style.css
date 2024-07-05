@@ -103,15 +103,16 @@ footer {
   font-size: 16px;
   padding: 0 260px 0 160px;
   height: 100%;
-  width: 60%;
+  width: 55%;
   display: flex;
   flex-direction: column;
 }
 
-.hero-image img {
+.hero-desktop {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
 }
 
 .hero-mobile {
@@ -162,4 +163,43 @@ p.error {
 .attribution a {
   color: hsl(0, 36%, 70%);
   text-decoration: none;
+}
+
+/* @media screen and (max-width: 1440px) {
+  .hero-desktop{
+  display: none;
+  }
+} */
+
+@media (max-width: 500px) {
+  .hero-desktop {
+    display: none;
+  }
+  .hero-mobile {
+    display: flex;
+  }
+
+  .content-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .logo {
+    align-self: flex-end;
+  }
+
+  h1 {
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  main {
+    min-height: 100vh;
+    min-width: 100vw;
+  }
 }
