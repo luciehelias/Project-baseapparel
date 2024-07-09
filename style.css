@@ -17,7 +17,7 @@
 
 main {
   display: flex;
-  height: 100vh;
+  /* height: 100vh; */
   background-image: url(images/bg-pattern-desktop.svg);
 }
 
@@ -102,7 +102,7 @@ footer {
   font-family: "Josefin Sans", sans-serif;
   font-size: 16px;
   padding: 0 260px 0 160px;
-  height: 100%;
+  /* height: 100%; */
   width: 55%;
   display: flex;
   flex-direction: column;
@@ -174,7 +174,7 @@ p.error {
 @media (max-width: 1200px) {
 }
 .content {
-  padding: 0 100px;
+  /* padding: 0 100px; */
 }
 
 @media (max-width: 1000px) {
